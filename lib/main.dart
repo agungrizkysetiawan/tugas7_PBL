@@ -1,6 +1,6 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'home_screen.dart'; // Import halaman awal
+import 'HomeScreen.dart'; // Import halaman awal
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
