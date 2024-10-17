@@ -1,6 +1,6 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-// import 'home_screen.dart'; // Import halaman awal
+import 'home_screen.dart'; // Import halaman awal
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      // home: HomeScreen(camera: camera), // Mulai dari halaman awal
+      home: HomeScreen(camera: camera), // Mulai dari halaman awal
     );
   }
 }
