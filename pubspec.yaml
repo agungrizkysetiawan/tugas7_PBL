@@ -30,6 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  camera: ^0.10.0 # Pastikan untuk menggunakan versi terbaru
+  flutter_spinkit: ^5.1.0
+  animated_widgets: ^1.1.0
 
 
   # The following adds the Cupertino Icons font to your application.
